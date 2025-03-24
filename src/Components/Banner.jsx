@@ -6,7 +6,7 @@ import Rectangle from "../assets/Rectangle.png";
 const Banner = () => {
     return (
         <>
-           <section className='bg-[#FAFAFA] py-10 px-6 h-auto sm:h-150'>
+           <section className='bg-[#FAFAFA] py-10 px-6 sm:px-6 lg:px-10 h-auto'>
     <div className='flex flex-col lg:flex-row'>
         <div className='mx-4 lg:ml-24.5 w-full lg:w-102 spacing-2'>
             <h3 className="text-2xl sm:text-3xl md:text-4xl text-[#7C6A46] mb-4 font-[Forte] font-bold">
