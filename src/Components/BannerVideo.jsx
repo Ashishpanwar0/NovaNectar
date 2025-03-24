@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import videoplayback from '../assets/videoplayback.mp4';
-import videobg from '../assets/videobg.png';
+import video from '../assets/video.png';
 import Rectangle4 from '../assets/Rectangle4.png';
 import Rectangle5 from '../assets/Rectangle5.png';
 import Rectangle6 from '../assets/Rectangle6.png';
@@ -15,7 +15,7 @@ function BannerVideo() {
     {!isPlaying && (
       <div className="absolute inset-0 flex justify-center items-center">
         <img 
-          src={videobg} 
+          src={video} 
           alt="Video Thumbnail" 
           className="w-full h-[300px] md:h-[400px] lg:h-[500px] object-cover"
         />
