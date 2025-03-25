@@ -18,50 +18,45 @@ const Facilities = () => {
         <p className='font-bold'>We offer modern (5 star) hotel facilities for your comfort.</p>
       </div>
 
-      <section className='flex flex-wrap justify-center md:justify-center lg:justify-between max-w-[1145px] mx-auto mt-10 gap-4'>
-  <div className='w-full min-[480px]:w-[45%] md:w-[300px] lg:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+      <section className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1145px] mx-auto mt-10 gap-4'>
+  <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-person-swimming text-4xl mb-3"></i>
     <p>Swimming Pool</p>
   </div>
-
-  <div className='w-full min-[480px]:w-[45%] md:w-[300px] lg:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-wifi text-3xl mb-3"></i>
     <p>Wifi</p>
   </div>
-
-  <div className='w-full min-[480px]:w-[45%] md:w-[300px] lg:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-mug-saucer text-3xl mb-3"></i>
     <p>Breakfast</p>
   </div>
-
-  <div className='w-full min-[480px]:w-[45%] md:w-[300px] lg:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-dumbbell text-3xl mb-3"></i>
     <p>Gym</p>
   </div>
 </section>
 
-<section className='flex flex-wrap justify-center md:justify-center lg:justify-between max-w-[1145px] mx-auto mt-10 gap-4'>
-  <div className='w-full min-[480px]:w-[45%] md:w-[300px] lg:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+
+<section className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1145px] mx-auto mt-10 gap-4'>
+  <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-person-swimming text-4xl mb-3"></i>
     <p>Swimming Pool</p>
   </div>
-
-  <div className='w-full min-[480px]:w-[45%] md:w-[300px] lg:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-wifi text-3xl mb-3"></i>
     <p>Wifi</p>
   </div>
-
-  <div className='w-full min-[480px]:w-[45%] md:w-[300px] lg:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-mug-saucer text-3xl mb-3"></i>
     <p>Breakfast</p>
   </div>
-
-  <div className='w-full min-[480px]:w-[45%] md:w-[300px] lg:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-dumbbell text-3xl mb-3"></i>
     <p>Gym</p>
   </div>
-</section>
-   {/* .................facilities end............. */}
+</section>   
+{/* .................facilities end............. */}
     </>
   )
 }
