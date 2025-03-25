@@ -6,7 +6,7 @@ import Rectangle from "../assets/Rectangle.png";
 const Banner = () => {
     return (
         <>
-           <section className='bg-[#FAFAFA] py-10 px-6 sm:px-6 lg:px-10 h-auto'>
+           <section className='bg-[#FAFAFA] py-10 px-6 sm:px-6 lg:px-10 h-auto lg:h-160'>
     <div className='flex flex-col lg:flex-row'>
         <div className='mx-4 lg:ml-24.5 w-full lg:w-102 spacing-2'>
             <h3 className="text-2xl sm:text-3xl md:text-4xl text-[#7C6A46] mb-4 font-[Forte] font-bold">
@@ -32,21 +32,21 @@ const Banner = () => {
         </div>
         {/* .............image................ */}
         <div className="mt-6 lg:mt-0">
-            <img src={Rectangle} className="w-full sm:w-140 rounded h-auto sm:h-130 object-cover mx-auto lg:ml-32" alt="" />
+            <img src={Rectangle} className="w-full sm:w-140 rounded h-auto sm:h-140 object-cover mx-auto lg:ml-28" alt="" />
         </div>
         {/* ............image..................*/}
     </div>
 
     
     {/* .............nav2.............. */}
-    <div className='w-full lg:w-[1149px] h-auto bg-white sticky shadow-md py-6 px-4 lg:px-6 mx-auto mt-6 lg:-mt-32'>
-  <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-1 items-center'>
+    <div className='w-full max-w-[1116px] text-[15px] h-auto bg-white sticky shadow-md py-6 px-4 lg:px-6 mx-auto mt-2 lg:-mt-30 rounded-sm'>
+  <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 items-center'>
     
     {/* Location */}
-    <div className="flex flex-col md:flex-row items-center">
-      <i className="fa-solid fa-location-dot"></i>
-      <span className='ml-2'>Location</span>
-      <select className='ml-2 md:ml-1 w-full md:w-16'>
+    <div className="flex flex-col sm:flex-row items-center justify-center">
+      <i className="fa-solid fa-location-dot text-lg"></i>
+      <span className='ml-2 text-[14px]'>Location</span>
+      <select className='ml-2 w-full sm:w-24 lg:w-20 h-10 rounded-md border border-gray-300'>
         <option>Abuja</option>
         <option>Rishikesh</option>
         <option>Dehradun</option>
@@ -55,10 +55,10 @@ const Banner = () => {
     </div>
 
     {/* Room Type */}
-    <div className='flex flex-col md:flex-row items-center'>
-      <i className="fa-solid fa-hotel"></i>
-      <span className='ml-2'>Room Type</span>
-      <select className='ml-2 md:ml-2 w-full md:w-17'>
+    <div className='flex flex-col sm:flex-row items-center justify-center lg:ml-5'>
+      <i className="fa-solid fa-hotel text-lg"></i>
+      <span className='ml-2 text-[14px]'>Room Type</span>
+      <select className='ml-3 w-full sm:w-24 lg:w-20 h-10 rounded-md border border-gray-300'>
         <option>Standard</option>
         <option>Low</option>
         <option>High</option>
@@ -66,10 +66,10 @@ const Banner = () => {
     </div>
 
     {/* Person */}
-    <div className='flex flex-col md:flex-row items-center md:ml-8'>
-      <i className="fa-solid fa-house"></i>
-      <span className='ml-2'>Person</span>
-      <select className='ml-2 md:ml-2 w-full md:w-10'>
+    <div className='flex flex-col sm:flex-row items-center justify-center lg:ml-5'>
+      <i className="fa-solid fa-house text-lg"></i>
+      <span className='ml-2 text-[14px]'>Person</span>
+      <select className='ml-3 w-full sm:w-16 lg:w-14 h-10 rounded-md border border-gray-300'>
         <option>01</option>
         <option>02</option>
         <option>03</option>
@@ -78,29 +78,31 @@ const Banner = () => {
     </div>
 
     {/* Check In */}
-    <div className='flex flex-col md:flex-row items-center md:ml-2'>
-      <i className="fa-solid fa-calendar"></i>
-      <span className='ml-2'>Check In</span>
-      <select className='ml-2 md:ml-2 w-full md:w-17'>
+    <div className='flex flex-col sm:flex-row items-center justify-center lg:ml-5'>
+      <i className="fa-solid fa-calendar text-lg"></i>
+      <span className='ml-2 text-[14px]'>Check In</span>
+      <select className='ml-3 w-full sm:w-28 lg:w-24 h-10 rounded-md border border-gray-300'>
         <option>01/Mar/2025</option>
         <option>02/Mar/2025</option>
       </select>
     </div>
 
     {/* Check Out */}
-    <div className='flex flex-col md:flex-row items-center md:ml-2'>
-      <i className="fa-solid fa-calendar"></i>
-      <span className='ml-2'>Check Out</span>
-      <select className='ml-2 md:ml-2 w-full md:w-17'>
+    <div className='flex flex-col sm:flex-row items-center justify-center lg:ml-10'>
+      <i className="fa-solid fa-calendar text-lg"></i>
+      <span className='ml-2 text-[14px]'>Check Out</span>
+      <select className='ml-3 w-full sm:w-28 lg:w-24 h-10 rounded-md border border-gray-300'>
         <option>02/Mar/2025</option>
         <option>03/Mar/2025</option>
       </select>
     </div>
 
     {/* Book Now Button */}
-    <button className="bg-[#7C6A46] text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors w-full md:w-35 md:ml-12 h-auto md:h-12">
-      Book Now
-    </button>
+    <div className="flex justify-center lg:ml-8">
+      <button className="bg-[#7C6A46] text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors w-full sm:w-32 lg:w-28 h-10">
+        Book Now
+      </button>
+    </div>
 
   </div>
 </div>
