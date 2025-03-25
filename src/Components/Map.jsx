@@ -14,14 +14,13 @@ const center = {
 
 function Map() {
   return (
-    <>
-    <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
-      <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={15}>
-        <Marker position={center} />
-      </GoogleMap>
-    </LoadScript>
-    </>
-  );
+    <div>
+
+<div style={{maxWidth:"100%",listStyle:"none", transition: "none",overflow:"hidden",width:"500px",height:"500px"}}><div id="embedded-map-display" style={{height:"100%", width:"100%",maxWidth:"100%"}}><iframe style={{height:"100%",width:"100%",border:"0"}} frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=rishilesh&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="embed-map-html" href="https://www.bootstrapskins.com/themes" id="enable-maps-data">premium bootstrap themes</a><style>#embedded-map-display</style></div>
+
+
+    </div>
+  )
 }
 
 export default Map;

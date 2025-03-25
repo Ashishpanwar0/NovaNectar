@@ -32,7 +32,7 @@ const Banner = () => {
         </div>
         {/* .............image................ */}
         <div className="mt-6 lg:mt-0">
-            <img src={Rectangle} className="w-full sm:w-140 rounded h-auto sm:h-130 object-cover mx-auto lg:ml-36" alt="" />
+            <img src={Rectangle} className="w-full sm:w-140 rounded h-auto sm:h-130 object-cover mx-auto lg:ml-32" alt="" />
         </div>
         {/* ............image..................*/}
     </div>
