@@ -19,48 +19,48 @@ const Facilities = () => {
       </div>
 
       <section className='flex flex-wrap justify-center md:justify-center lg:justify-between max-w-[1145px] mx-auto mt-10 gap-4'>
-  <div className='w-full sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-[30%] sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-person-swimming text-4xl mb-3"></i>
     <p>Swimming Pool</p>
   </div>
 
-  <div className='w-full sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-[30%] sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-wifi text-3xl mb-3"></i>
     <p>Wifi</p>
   </div>
 
-  <div className='w-full sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-[30%] sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-mug-saucer text-3xl mb-3"></i>
     <p>Breakfast</p>
   </div>
 
-  <div className='w-full sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+  <div className='w-[30%] sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-dumbbell text-3xl mb-3"></i>
     <p>Gym</p>
   </div>
 </section>
 
-      <section className='flex flex-wrap justify-center md:justify-center lg:justify-between max-w-[1145px] mx-auto mt-10 gap-4'>
-        <div className='w-full sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
-          <i className="fa-solid fa-person-swimming text-4xl mb-3"></i>
-          <p>Swimming Pool</p>
-        </div>
+<section className='flex flex-wrap justify-center md:justify-center lg:justify-between max-w-[1145px] mx-auto mt-10 gap-4'>
+  <div className='w-[30%] sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+    <i className="fa-solid fa-person-swimming text-4xl mb-3"></i>
+    <p>Swimming Pool</p>
+  </div>
 
-        <div className='w-full sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
-          <i className="fa-solid fa-wifi text-3xl mb-3"></i>
-          <p>Wifi</p>
-        </div>
+  <div className='w-[30%] sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+    <i className="fa-solid fa-wifi text-3xl mb-3"></i>
+    <p>Wifi</p>
+  </div>
 
-        <div className='w-full sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
-          <i className="fa-solid fa-mug-saucer text-3xl mb-3"></i>
-          <p>Breakfast</p>
-        </div>
+  <div className='w-[30%] sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+    <i className="fa-solid fa-mug-saucer text-3xl mb-3"></i>
+    <p>Breakfast</p>
+  </div>
 
-        <div className='w-full sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
-          <i className="fa-solid fa-dumbbell text-3xl mb-3"></i>
-          <p>Gym</p>
-        </div>
-      </section>
+  <div className='w-[30%] sm:w-[300px] md:w-[250px] h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
+    <i className="fa-solid fa-dumbbell text-3xl mb-3"></i>
+    <p>Gym</p>
+  </div>
+</section>
    {/* .................facilities end............. */}
     </>
   )
