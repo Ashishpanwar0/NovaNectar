@@ -16,9 +16,9 @@ function Footer() {
                             </p>
                         </div>
                         {/* ........other...... */}
-                        <div className='flex md:ml-40 md-w-full md:mt-2'>
+                        <div className='flex md:ml-13 md-w-full md:mt-2 '>
 
-                            <div className='w-full mb-8 md:w-25'>
+                            <div className='w-full mb-8 md:w-25 lg:ml-28'>
                                 <h3 className='text-lg md:text-xl mb-4 text-white'>
                                     Quick links
                                 </h3>
@@ -33,7 +33,7 @@ function Footer() {
                                 </div>
                             </div>
 
-                            <div className='w-full mb-8 md:ml-18 md:w-28'>
+                            <div className='w-full mb-8 md:ml-18 md:w-28 lg:ml-15'>
                                 <h3 className='text-lg md:text-xl mb-4 text-white'>
                                     Company
                                 </h3>
@@ -48,7 +48,7 @@ function Footer() {
                                 </div>
                             </div>
 
-                            <div className='w-full mb-8 md:ml-15 md:w-28'>
+                            <div className='w-full mb-8 md:ml-15 md:w-28 lg:ml-15'>
                                 <h3 className='text-lg md:text-xl mb-4 text-white'>
                                     Social media
                                 </h3>

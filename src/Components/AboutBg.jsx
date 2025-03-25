@@ -34,7 +34,7 @@ function AboutBg() {
                         <img
                             src={MrsPhoto}
                             alt="Chidinma James"
-                            className="w-[300px] sm:w-[350px] lg:w-[400px] h-[380px] sm:h-[420px] lg:h-[480px] absolute top-[-30px] left-2 shadow-lg ml-6 mt-2"
+                            className="w-[300px] sm:w-[350px] lg:w-[400px] h-[380px] sm:h-[420px] lg:h-[480px] absolute top-[-30px]  shadow-lg ml-6 mt-2"
                         />
                     </div>
                     <h1 className="mt-6 text-xl sm:text-2xl font-bold text-center lg:ml-13">
