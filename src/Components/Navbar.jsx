@@ -18,8 +18,8 @@ const Navbar = () => {
         >
             ☰
         </button>     
-        <div className="md:flex space-x-8 lg:space-x-18 items-center font-bold hidden">
-            <Link to="/" className="text-black-500 hover:text-[#7C6A46] transition-colors">Home</Link>
+        <div className="md:flex space-x-8 lg:space-x-18 items-center font-bold hidden animate-slide-down">
+            <Link to="/" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Home</Link>
             <Link to="/explore" className="text-black-500 hover:text-[#7C6A46] transition-colors">Explore</Link>
             <Link to="/rooms" className="text-black-500 hover:text-[#7C6A46] transition-colors">Rooms</Link>
             <Link to="/about" className="text-black-500 hover:text-[#7C6A46] transition-colors">About</Link>
@@ -33,17 +33,16 @@ const Navbar = () => {
     </div>
     
     {isOpen && (
-        <div className="md:hidden flex flex-col items-center bg-[#FAFAFA] py-4 space-y-3 shadow-md absolute left-0 right-0 top-[85px] z-30">
-            <Link to="/" className="text-black-500 hover:text-[#7C6A46] transition-colors">Home</Link>
-            <Link to="/explore" className="text-black-500 hover:text-[#7C6A46] transition-colors">Explore</Link>
-            <Link to="/rooms" className="text-black-500 hover:text-[#7C6A46] transition-colors">Rooms</Link>
-            <Link to="/about" className="text-black-500 hover:text-[#7C6A46] transition-colors">About</Link>
-            <Link to="/contact" className="text-black-500 hover:text-[#7C6A46] transition-colors">Contact</Link>
-            
-            <button className="bg-[#7C6A46] text-white hover:bg-blue-700 font-medium py-2 px-4 rounded transition-colors font-bold">
-                Book Now
-            </button>
-        </div>
+        <div className="md:hidden flex flex-col items-center bg-[#FAFAFA] py-4 space-y-3 shadow-lg absolute left-0 right-0 top-[85px] z-30 animate-slide-down">
+        <Link to="/" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Home</Link>
+        <Link to="/explore" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Explore</Link>
+        <Link to="/rooms" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Rooms</Link>
+        <Link to="/about" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">About</Link>
+        <Link to="/contact" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Contact</Link>
+        <button className="bg-[#7C6A46] text-white hover:bg-blue-700 font-medium py-2 px-4 rounded transition-colors duration-300 hover:scale-105 mr-4">
+            Book Now
+        </button>
+    </div>
     )}
 </nav>
   );
