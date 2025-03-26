@@ -8,7 +8,9 @@ const Banner = () => {
         <>
            <section className='bg-[#FAFAFA] py-10 px-6 sm:px-6 lg:px-10 h-auto lg:h-160'>
     <div className='flex flex-col lg:flex-row'>
-        <div className='mx-4 lg:ml-24.5 w-full lg:w-102 spacing-2'>
+        <div className='mx-4 lg:ml-24.5 w-full lg:w-102 spacing-2' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
             <h3 className="text-2xl sm:text-3xl md:text-4xl text-[#7C6A46] mb-4 font-[Forte] font-bold">
                 Paradise View
             </h3>
@@ -32,7 +34,7 @@ const Banner = () => {
         </div>
         {/* .............image................ */}
         <div className="mt-6 lg:mt-0">
-            <img src={Rectangle} className="w-full sm:w-140 rounded h-auto sm:h-140 object-cover mx-auto lg:ml-28" alt="" />
+            <img data-aos="fade-left" ata-aos-anchor="#example-anchor" data-aos-offset="10" data-aos-duration="500" src={Rectangle} className="w-full sm:w-140 rounded h-auto sm:h-140 object-cover mx-auto lg:ml-28" alt="" />
         </div>
         {/* ............image..................*/}
     </div>

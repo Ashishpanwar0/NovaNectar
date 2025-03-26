@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="w-full h-[85px] bg-[#FAFAFA] py-4 px-4 md:px-8 relative z-20">
+    <nav className="w-full h-[85px] bg-[#FAFAFA] py-4 px-4 md:px-8 relative z-20"  style={{zIndex:"999"}}>
     <div className="container mx-auto flex items-center justify-between mt-3">
         <div className="font-bold text-xl text-gray-800 ml-0 md:ml-22">
             <img src={logo} className="h-8 md:h-10 w-auto ml-5" alt="Hotel Logo" />
@@ -33,7 +33,7 @@ const Navbar = () => {
     </div>
     
     {isOpen && (
-        <div className="md:hidden flex flex-col items-center bg-[#FAFAFA] py-4 space-y-3 shadow-lg absolute left-0 right-0 top-[85px] z-30 animate-slide-down">
+        <div data-aos="fade-left" className="md:hidden flex flex-col items-center bg-[#FAFAFA] py-4 space-y-3 shadow-lg absolute left-0 right-0 top-[85px] z-30 animate-slide-down">
         <Link to="/" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Home</Link>
         <Link to="/explore" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Explore</Link>
         <Link to="/rooms" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Rooms</Link>

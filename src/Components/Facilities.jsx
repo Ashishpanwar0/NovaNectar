@@ -18,7 +18,7 @@ const Facilities = () => {
         <p className='font-bold'>We offer modern (5 star) hotel facilities for your comfort.</p>
       </div>
 
-      <section className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1145px] mx-auto mt-10 gap-4'>
+      <section data-aos="zoom-in-left" className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1145px] mx-auto mt-10 gap-4'>
   <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-person-swimming text-4xl mb-3"></i>
     <p>Swimming Pool</p>
@@ -38,7 +38,7 @@ const Facilities = () => {
 </section>
 
 
-<section className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1145px] mx-auto mt-10 gap-4'>
+<section data-aos="zoom-in-right" className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-[1145px] mx-auto mt-10 gap-4'>
   <div className='w-full h-40 text-center bg-[#FAFAFA] flex flex-col items-center justify-center rounded-lg shadow-md'>
     <i className="fa-solid fa-person-swimming text-4xl mb-3"></i>
     <p>Swimming Pool</p>

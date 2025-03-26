@@ -5,6 +5,8 @@ import Explore from './Pages/Explore';
 import Rooms from './Pages/Rooms';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
   const router = createBrowserRouter([
