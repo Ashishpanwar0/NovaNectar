@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 function Footer() {
     return (
         <>
+            {/* .........Footer Start............. */}
             <section className='w-full bg-[#7C6A46] py-8 md:py-12 mt-30'>
                 <div className='container mx-auto px-4'>
                     <div className='flex flex-col md:flex-row flex-wrap'>
@@ -23,45 +24,51 @@ function Footer() {
                                     Quick links
                                 </h3>
                                 <div className='text-white text-sm flex flex-col gap-4 text-bold'>
-                                    <Link className="text-white hover:text-gray-200 transition-colors">Room booking</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">Room booking</Link>
 
-                                    <Link className="text-white hover:text-gray-200 transition-colors">Rooms</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">Rooms</Link>
 
-                                    <Link className="text-white hover:text-gray-200 transition-colors">Contact</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">Contact</Link>
 
-                                    <Link className="text-white hover:text-gray-200 transition-colors">Explore</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">Explore</Link>
                                 </div>
                             </div>
 
+                            {/* .........Company Start............. */}
                             <div className='w-full mb-8 md:ml-18 md:w-28 lg:ml-15'>
                                 <h3 className='text-lg md:text-xl mb-4 text-white'>
                                     Company
                                 </h3>
                                 <div className='text-white text-sm flex flex-col gap-4 text-bold'>
-                                    <Link className="text-white hover:text-gray-200 transition-colors">Privacy policy</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">Privacy policy</Link>
 
-                                    <Link className="text-white hover:text-gray-200 transition-colors">Refund policy</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">Refund policy</Link>
 
-                                    <Link className="text-white hover:text-gray-200 transition-colors">F.A.Q</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">F.A.Q</Link>
 
-                                    <Link className="text-white hover:text-gray-200 transition-colors">About</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">About</Link>
                                 </div>
                             </div>
+                            {/* .........Company End............. */}
 
+
+                                {/* .........Social media Start............. */}
                             <div className='w-full mb-8 md:ml-15 md:w-28 lg:ml-15'>
                                 <h3 className='text-lg md:text-xl mb-4 text-white'>
                                     Social media
                                 </h3>
                                 <div className='text-white text-sm flex flex-col gap-4 text-bold'>
-                                    <Link className="text-white hover:text-gray-200 transition-colors">Facebook</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">Facebook</Link>
 
-                                    <Link className="text-white hover:text-gray-200 transition-colors">Instagram</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">Instagram</Link>
 
-                                    <Link className="text-white hover:text-gray-200 transition-colors">LinkedIn</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">LinkedIn</Link>
 
-                                    <Link className="text-white hover:text-gray-200 transition-colors">Twitter</Link>
+                                    <Link className="text-white hover:text-gray-200 transition-colors hover:scale-105 hover:underline decoration-White-500">Twitter</Link>
                                 </div>
+
                             </div>
+                            {/* .........Social media End............. */}
                         </div>
                         {/* .........other...... */}
 
@@ -76,7 +83,7 @@ function Footer() {
 
                             <div className="relative w-full max-w-md">
                                 <input type="email" placeholder="Enter your email" className="w-full bg-white px-4 py-3 border border-gray-300 rounded-md focus:outline-none pr-24" />
-                                <button className="absolute right-2 top-1/2 transform -translate-y-1/2 px-3 py-1 bg-[#7C6A46] text-white rounded hover:bg-blue-600 transition">
+                                <button className="hover:scale-105 absolute right-2 top-1/2 transform -translate-y-1/2 px-3 py-1 bg-[#7C6A46] text-white rounded hover:bg-blue-600 transition">
                                     Subscribe
                                 </button>
                             </div>
@@ -87,6 +94,7 @@ function Footer() {
                     <div className="text-center mt-4 md:mt-6 text-white">Paradise view 2023</div>
                 </div>
             </section>
+            {/* .........Footer Start............. */}
         </>
     )
 };

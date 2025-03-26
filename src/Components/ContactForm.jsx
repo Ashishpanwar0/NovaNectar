@@ -5,7 +5,7 @@ import React from 'react';
 function ContactForm() {
   return (
     <>
-   <section className="w-full bg-[#FAFAFA] pt-12 pb-12 px-4">
+   <section className="w-full bg-[#FAFAFA] pt-12 pb-12 px-4 h-165">
   <form action="" className="max-w-5xl mx-auto">
     {/* Name & Email Fields */}
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

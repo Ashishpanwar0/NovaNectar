@@ -27,7 +27,9 @@ function AboutBg() {
 
 
             {/* ////////////////About Second Section Start////////////////// */}
-            <section className="flex flex-col lg:flex-row w-full mt-25 lg:mt-28 px-4 lg:px-20">
+            <section className="flex flex-col lg:flex-row w-full mt-25 lg:mt-28 px-4 lg:px-20" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
                 {/* First div start */}
                 <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start lg:ml-20 lg:mt-2">
                     <div className="w-[300px] sm:w-[350px] lg:w-[400px] h-[380px] sm:h-[420px] lg:h-[480px] bg-[#7C6A46] relative">
@@ -60,17 +62,17 @@ function AboutBg() {
 
             {/* ///////////////////start///////////////// */}
             <div className="text-center mt-15 sm:mt-12 lg:mt-16 px-4">
-  <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8">
-    Clients
-  </h1>
-  <div className="flex justify-center">
-    <img
-      src={AboutLogo}
-      alt="Clients Logo"
-      className="w-[600px] sm:w-[600px] md:w-[600px] lg:w-[900px] h-auto"
-    />
-  </div>
-</div>
+                <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 sm:mb-8">
+                    Clients
+                </h1>
+                <div className="flex justify-center">
+                    <img
+                        src={AboutLogo}
+                        alt="Clients Logo"
+                        className="w-[600px] sm:w-[600px] md:w-[600px] lg:w-[900px] h-auto"
+                    />
+                </div>
+            </div>
             {/* ///////////////////End///////////////// */}
         </>
     )

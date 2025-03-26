@@ -19,14 +19,14 @@ const Navbar = () => {
             ☰
         </button>     
         <div className="md:flex space-x-8 lg:space-x-18 items-center font-bold hidden animate-slide-down">
-            <Link to="/" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Home</Link>
-            <Link to="/explore" className="text-black-500 hover:text-[#7C6A46] transition-colors">Explore</Link>
-            <Link to="/rooms" className="text-black-500 hover:text-[#7C6A46] transition-colors">Rooms</Link>
-            <Link to="/about" className="text-black-500 hover:text-[#7C6A46] transition-colors">About</Link>
-            <Link to="/contact" className="text-black-500 hover:text-[#7C6A46] transition-colors">Contact</Link>
+            <Link to="/" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4 hover:underline decoration-blue-500">Home</Link>
+            <Link to="/explore" className="text-black-500 hover:text-[#7C6A46] transition-colors hover:underline decoration-blue-500 hover:scale-105">Explore</Link>
+            <Link to="/rooms" className="text-black-500 hover:text-[#7C6A46] transition-colors hover:underline decoration-blue-500 hover:scale-105">Rooms</Link>
+            <Link to="/about" className="text-black-500 hover:text-[#7C6A46] transition-colors hover:underline decoration-blue-500 hover:scale-105">About</Link>
+            <Link to="/contact" className="text-black-500 hover:text-[#7C6A46] transition-colors hover:underline decoration-blue-500 hover:scale-105">Contact</Link>
         </div>     
         <div className="hidden md:block">
-            <button className="bg-[#7C6A46] mr-4 lg:mr-20 text-white hover:bg-blue-700 font-medium py-2 px-4 rounded transition-colors font-bold">
+            <button className="bg-[#7C6A46] mr-4 lg:mr-20 text-white hover:bg-blue-700 font-medium py-2 px-4 rounded transition-colors font-bold hover:scale-105">
                 Book Now
             </button>
         </div>
@@ -39,7 +39,7 @@ const Navbar = () => {
         <Link to="/rooms" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Rooms</Link>
         <Link to="/about" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">About</Link>
         <Link to="/contact" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Contact</Link>
-        <button className="bg-[#7C6A46] text-white hover:bg-blue-700 font-medium py-2 px-4 rounded transition-colors duration-300 hover:scale-105 mr-4">
+        <button className="bg-[#7C6A46] hover:scale-105 text-white hover:bg-blue-700 font-medium py-2 px-4 rounded transition-colors duration-300 hover:scale-105 mr-4">
             Book Now
         </button>
     </div>

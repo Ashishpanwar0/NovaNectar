@@ -2,6 +2,8 @@ import React from 'react';
 import Rectangle4 from "../assets/Rectangle4.png";
 import HotalBg from "../assets/HotalBg.png";
 import Rectangle3 from '../assets/Rectangle3.png';
+import Rectangle2 from '../assets/Rectangle2.png';
+import Rectangle1 from '../assets/Rectangle1.png';
 
 function RoomsBg() {
     return (
@@ -34,10 +36,11 @@ function RoomsBg() {
 
             {/* ..........About first row card start................ */}
 
-            <section className='flex flex-col md:flex-row flex-wrap justify-center gap-8 md:gap-4 lg:gap-10 mt-10 md:mt-16 lg:mt-25 px-4 md:px-8 lg:px-0'>
+            <section className='flex flex-col md:flex-row flex-wrap justify-center gap-8 md:gap-4 lg:gap-10 mt-10 md:mt-16 lg:mt-25 px-4 md:px-8 lg:px-0' data-aos="fade-up"
+                data-aos-duration="3000">
                 {/* First card */}
-                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative'>
-                    <img src={Rectangle3} alt="" className='w-full' />
+                <div className=' hover:scale-105  w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative'>
+                    <img src={Rectangle1} alt="" className='w-full' />
 
                     {/* Card text */}
                     <div className='relative lg:absolute bottom-0 bg-[#FAFAFA] h-auto lg:h-48 w-full z-10 p-4 lg:p-6'>
@@ -59,7 +62,7 @@ function RoomsBg() {
                                 <i className="fa-solid fa-shower"></i>
                                 <i className="fa-solid fa-wifi"></i>
                             </div>
-                            <button className="bg-[#7C6A46] text-white hover:bg-[#65563A] font-medium py-2 px-4 rounded transition-colors">
+                            <button className=" bg-[#7C6A46] text-white hover:bg-[#65563A] font-medium py-2 px-4 rounded transition-colors">
                                 Book Now
                             </button>
                         </div>
@@ -67,7 +70,7 @@ function RoomsBg() {
                 </div>
 
                 {/* Second card */}
-                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative'>
+                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative hover:scale-105'>
                     <img src={Rectangle3} alt="" className='w-full' />
 
                     {/* Card text */}
@@ -98,8 +101,8 @@ function RoomsBg() {
                 </div>
 
                 {/* Third card */}
-                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative'>
-                    <img src={Rectangle3} alt="" className='w-full' />
+                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative hover:scale-105'>
+                    <img src={Rectangle2} alt="" className='w-full' />
 
                     {/* Card text */}
                     <div className='relative lg:absolute bottom-0 bg-[#FAFAFA] h-auto lg:h-48 w-full z-10 p-4 lg:p-6'>
@@ -132,9 +135,11 @@ function RoomsBg() {
 
 
             {/* ///////////////About second row card start//////// */}
-            <section className='flex flex-col md:flex-row flex-wrap justify-center gap-8 md:gap-4 lg:gap-10 mt-10 md:mt-16 lg:mt-25 px-4 md:px-8 lg:px-0'>
+            <section className='flex flex-col md:flex-row flex-wrap justify-center gap-8 md:gap-4 lg:gap-10 mt-10 md:mt-16 lg:mt-25 px-4 md:px-8 lg:px-0' data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 {/* First card */}
-                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative'>
+                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative hover:scale-105'>
                     <img src={Rectangle3} alt="" className='w-full' />
 
                     {/* Card text */}
@@ -165,8 +170,8 @@ function RoomsBg() {
                 </div>
 
                 {/* Second card */}
-                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative'>
-                    <img src={Rectangle3} alt="" className='w-full' />
+                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative hover:scale-105'>
+                    <img src={Rectangle1} alt="" className='w-full' />
 
                     {/* Card text */}
                     <div className='relative lg:absolute bottom-0 bg-[#FAFAFA] h-auto lg:h-48 w-full z-10 p-4 lg:p-6'>
@@ -196,7 +201,7 @@ function RoomsBg() {
                 </div>
 
                 {/* Third card */}
-                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative'>
+                <div className='w-full md:w-[45%] lg:w-90 lg:h-110 bg-white mx-auto lg:mx-0 mb-16 md:mb-8 lg:mb-0 relative hover:scale-105'>
                     <img src={Rectangle3} alt="" className='w-full' />
 
                     {/* Card text */}
