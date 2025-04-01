@@ -13,9 +13,8 @@ const Navbar = () => {
                 </div>
 
                 <button
-                    className="md:hidden text-gray-800 focus:outline-none"
-                    onClick={() => setIsOpen(!isOpen)}
-                >
+                    className="md:hidden text-gray-800 focus:outline-none text-3xl"
+                    onClick={() => setIsOpen(!isOpen)} >
                     ☰
                 </button>
                 <div className="md:flex space-x-8 lg:space-x-18 items-center font-bold hidden animate-slide-down">
