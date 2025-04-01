@@ -5,7 +5,6 @@ import MrsPhoto from '../assets/MrsPhoto.png';
 import AboutLogo from '../assets/AboutLogo.png';
 
 
-
 function AboutBg() {
     return (
         <>
@@ -28,8 +27,8 @@ function AboutBg() {
 
             {/* ////////////////About Second Section Start////////////////// */}
             <section className="flex flex-col lg:flex-row w-full mt-25 lg:mt-28 px-4 lg:px-20" data-aos="fade-down"
-     data-aos-easing="linear"
-     data-aos-duration="1500">
+                data-aos-easing="linear"
+                data-aos-duration="1500">
                 {/* First div start */}
                 <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start lg:ml-20 lg:mt-2">
                     <div className="w-[300px] sm:w-[350px] lg:w-[400px] h-[380px] sm:h-[420px] lg:h-[480px] bg-[#7C6A46] relative">

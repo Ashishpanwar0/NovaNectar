@@ -11,7 +11,6 @@ const Laxurious = () => {
     <>
 
       <section
-
         style={{ backgroundImage: `url(${HotalBack})` }}
         className="bg-cover h-auto relative overflow-hidden mt-10 p-4 sm:p-6 md:p-8 lg:p-10">
         <div
