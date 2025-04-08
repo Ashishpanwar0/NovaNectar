@@ -19,18 +19,16 @@ function RoomsBg() {
                 >
                 </div>
 
-                <div className="w-full flex justify-center items-center min-h-screen">
-                    <div className="w-full px-4 md:w-3/4 lg:w-100 flex flex-col items-center justify-center">
-                        <h1 className="mb-3 md:mb-5 text-center w-full md:w-auto lg:w-120 text-2xl md:text-3xl lg:text-4xl text-white font-bold relative z-10">
-                            Rooms and Suites
-                        </h1>
-                        <p className="mb-6 md:mb-10 text-center w-full md:w-auto lg:w-120 text-white text-base md:text-lg lg:text-1xl font-bold relative z-10">
+                <div className='w-full flex flex-col items-center mt-28 px-4'>
+                    <h1 className='mb-5 text-center text-3xl md:text-4xl text-white font-bold relative z-10'>
+                    Rooms and Suites
+                    </h1>
+                    <p className="mb-6 md:mb-10 text-center w-full md:w-auto lg:w-120 text-white text-base md:text-lg lg:text-1xl font-bold relative z-10">
                             The elegant luxury bedrooms in this gallery showcase custom interior designs & decorating ideas. View pictures and find your perfect luxury bedroom design.
                         </p>
                         <div className="flex justify-center w-full relative z-10">
                             <i className="fa-solid fa-arrow-down border-2 border-white rounded-3xl z-10 relative py-5 md:py-6 lg:py-7 px-2 md:px-3" style={{ fontSize: 20, color: "#f3eded" }}></i>
-                        </div>
-                    </div>
+                            </div>
                 </div>
             </section>
             {/* ////////About Fisrt Section End////////// */}
