@@ -25,9 +25,11 @@ const Navbar = () => {
                     <Link to="/contact" className="text-black-500 hover:text-[#7C6A46] transition-colors hover:underline decoration-blue-500 hover:scale-105">Contact</Link>
                 </div>
                 <div className="hidden md:block">
+                    <a href="/Book">
                     <button className="bg-[#7C6A46] mr-4 lg:mr-20 text-white hover:bg-blue-700 font-medium py-2 px-4 rounded transition-colors font-bold hover:scale-105">
                         Book Now
                     </button>
+                    </a>
                 </div>
             </div>
 
@@ -38,9 +40,11 @@ const Navbar = () => {
                     <Link to="/rooms" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Rooms</Link>
                     <Link to="/about" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">About</Link>
                     <Link to="/contact" className="text-black-500 hover:text-[#7C6A46] transition-colors duration-300 hover:scale-105 pr-4">Contact</Link>
+                    <a href="/Book">
                     <button className="bg-[#7C6A46] hover:scale-105 text-white hover:bg-blue-700 font-medium py-2 px-4 rounded transition-colors duration-300 hover:scale-105 mr-4">
                         Book Now
                     </button>
+                    </a>
                 </div>
             )}
         </nav>

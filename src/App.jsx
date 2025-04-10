@@ -7,6 +7,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Booknow from './Components/Booknow';
 
 function App() {
   const router = createBrowserRouter([
@@ -31,6 +32,10 @@ function App() {
     {
       path: "/contact",
       element: <Contact/>
+    },
+    {
+      path: "Book",
+      element: <Booknow/>
     },
   ]);
 

@@ -32,11 +32,13 @@ const Laxurious = () => {
           <div className=" cute bg-white border-1 w-full sm:w-80 md:w-90 md:h-95 h-auto border-white rounded-lg shadow-lg py-1 sm:py-2 md:py-1 px-4 object-cover mb-6 sm:mb-6 md:mb-0 relative">
             <div className="relative">
               <img src={Rectangle1} alt="" className=" hover:scale-105 w-full sm:w-[355px] md:w-[355px] h-[200px] sm:h-[250px] md:h-[250px] lg:h-[300px] rounded-lg object-cover mt-3 mx-auto" />
+              <a href="/Book">
               <button
                 className="absolute top-4 right-4 w-45 bg-[#7C6A46] text-white rounded-md hover:bg-blue-600 transition-colors py-1 px-3"
               >
                 12 Rooms available
               </button>
+              </a>
             </div>
             <p className="my-3 text-center md:text-justify w-full sm:w-72 md:w-72">Television set, Extra sheets and Breakfast</p>
           </div>
@@ -45,11 +47,13 @@ const Laxurious = () => {
      data-aos-duration="500" className="bg-white border-1 w-full sm:w-80 md:w-90 md:h-95 h-auto border-white rounded-lg shadow-lg py-1 sm:py-2 md:py-1 px-4 object-cover mb-6 sm:mb-6 md:mb-0 relative">
             <div className="relative">
               <img src={Rectangle2} alt="" className="hover:scale-105 w-full sm:w-[355px] md:w-[355px] h-[200px] sm:h-[250px] md:h-[250px] lg:h-[300px] object-cover rounded-lg mt-3 mx-auto" />
+              <a href="/Book">
               <button
                 className="absolute top-4 right-4 w-45 bg-[#7C6A46] text-white rounded-md hover:bg-blue-600 transition-colors py-1 px-3"
               >
                 12 Rooms available
               </button>
+              </a>
             </div>
             <p className="my-3 text-center md:text-justify w-full sm:w-70 md:w-70">
               Television set, Extra sheets, Breakfast, and fireplace
