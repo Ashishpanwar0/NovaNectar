@@ -25,14 +25,14 @@ const Banner = () => {
               {/* Button Start */}
               <div className="flex items-center gap-4 mt-8">
                 <a href="/Book">
-                <button className=" hover:scale-105 bg-[#7C6A46] text-white px-5 py-2 rounded-md hover:bg-blue-600 transition-colors">
-                  Book Now
-                </button>
+                  <button className=" hover:scale-105 bg-[#7C6A46] text-white px-5 py-2 rounded-md hover:bg-blue-600 transition-colors">
+                    Book Now
+                  </button>
                 </a>
                 <a href="/explore">
-                <button className=" hover:scale-105 flex items-center justify-center w-8 h-8 bg-blue-500 rounded-full hover:bg-orange-600 transition-colors ml-5">
-                  <span className="w-0 h-0 border-t-4 border-b-4 border-l-6 border-t-transparent border-b-transparent border-l-white"></span>
-                </button>
+                  <button className=" hover:scale-105 flex items-center justify-center w-8 h-8 bg-blue-500 rounded-full hover:bg-orange-600 transition-colors ml-5">
+                    <span className="w-0 h-0 border-t-4 border-b-4 border-l-6 border-t-transparent border-b-transparent border-l-white"></span>
+                  </button>
                 </a>
                 <span className="text-black">Take a tour</span>
               </div>
@@ -107,9 +107,9 @@ const Banner = () => {
               {/* Book Now Button */}
               <div className="flex justify-center lg:ml-8">
                 <a href="/Book">
-                <button className=" hover:scale-105 bg-[#7C6A46] text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors w-full sm:w-32 lg:w-28 h-10">
-                  Book Now
-                </button>
+                  <button className=" hover:scale-105 bg-[#7C6A46] text-white px-4 py-2 rounded-md hover:bg-blue-600 transition-colors w-full sm:w-32 lg:w-28 h-10">
+                    Book Now
+                  </button>
                 </a>
               </div>
             </div>

@@ -19,7 +19,7 @@ function RoomsBg() {
                 >
                 </div>
 
-                <div className='w-full flex flex-col items-center mt-28 px-4'>
+                <div className='w-full flex flex-col items-center mt-10 lg:mt-28 px-4'>
                     <h1 className='mb-5 text-center text-3xl md:text-4xl text-white font-bold relative z-10'>
                     Rooms and Suites
                     </h1>
