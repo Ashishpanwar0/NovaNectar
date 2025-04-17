@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import HotalBack from "../assets/HotalBack.png";
 import HotalBg from "../assets/HotalBg.png";
+import Rectangle from "../assets/Rectangle.png";
 
 const Booknow = () => {
     const [form, setForm] = useState({
@@ -25,39 +26,36 @@ const Booknow = () => {
     };
 
     return (
-        <section sclassName="h-[600px] w-full bg-no-repeat bg-cover bg-center inset-0"
-        style={{
-          backgroundImage: `url(${HotalBack}), url(${HotalBg})`,
-          backgroundPosition: 'left center, right center',
-        }}>
-            <div className="min-h-screen flex items-center justify-center p-6 z-10">
+        <>
+            <section className='flex bg-[#FAFAFA]'>
+            <div className="min-h-screen flex items-center justify-center p-6 z-10 w-170">
                 <form
                     onSubmit={handleSubmit}
-                    className="bg-[white] p-8 rounded-xl w-full max-w-xl space-y-4"
+                    className="bg-[#FAFAFA] w-100% max-w-xl space-y-4"
                 >
                     <h2 className="text-2xl font-bold text-center  mb-4">Book Your Room</h2>
 
                     <input
-                        name="name" type="text" placeholder="Full Name" value={form.name} onChange={handleChange} required className="w-full p-3 border rounded-1xl"
+                        name="name" type="text" placeholder="Full Name" value={form.name} onChange={handleChange} required className="border border-gray-300 w-full py-3 pl-3 mt-2 rounded-lg"
                     />
 
-                    <input name="email" type="email" placeholder="Email Address" value={form.email} onChange={handleChange} required className="w-full p-3 border rounded-1xl"
+                    <input name="email" type="email" placeholder="Email Address" value={form.email} onChange={handleChange} required className="border border-gray-300 w-full py-3 pl-3 mt-2 rounded-lg"
                     />
 
-                    <input name="phone" type="text" placeholder="Phone Number" value={form.phone} onChange={handleChange} required className="w-full p-3 border rounded-1xl"
+                    <input name="phone" type="text" placeholder="Phone Number" value={form.phone} onChange={handleChange} required className="border border-gray-300 w-full py-3 pl-3 mt-2 rounded-lg"
                     />
 
                     <div className="flex gap-4">
-                        <input name="checkIn" type="date" value={form.checkIn} onChange={handleChange} required className="w-full p-3 border rounded-1xl"
+                        <input name="checkIn" type="date" value={form.checkIn} onChange={handleChange} required className="border border-gray-300 w-full py-3 pl-3 mt-2 rounded-lg"
                         />
-                        <input name="checkOut" type="date" value={form.checkOut} onChange={handleChange} required className="w-full p-3 border rounded-1xl"
+                        <input name="checkOut" type="date" value={form.checkOut} onChange={handleChange} required className="border border-gray-300 w-full py-3 pl-3 mt-2 rounded-lg"
                         />
                     </div>
 
                     <div className="flex gap-4">
-                        <input name="guests" type="number" min="1" value={form.guests} onChange={handleChange} className="w-full p-3 border rounded-1xl"
+                        <input name="guests" type="number" min="1" value={form.guests} onChange={handleChange} className="border border-gray-300 w-full py-3 pl-3 mt-2 rounded-lg"
                         />
-                        <select name="roomType" value={form.roomType} onChange={handleChange} className="w-full p-3 border rounded-1xl"
+                        <select name="roomType" value={form.roomType} onChange={handleChange} className="w-full p-3 border rounded-xl"
                         >
                             <option>Single</option>
                             <option>Double</option>
@@ -73,7 +71,13 @@ const Booknow = () => {
                     </button>
                 </form>
             </div>
-        </section>
+
+            <div className='mt-18'>
+                <img src={Rectangle} alt="" className='h-135 w-135 rounded-xl' />
+            </div>
+            </section>
+        
+        </>
     );
 };
 
